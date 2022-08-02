@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  font-family: Lato, sans-serif;
+  background-repeat: no-repeat ;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.7)), url('./images/background.jpg'); 
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1{
+  color: rgb(39, 39, 39);
+  font-size:  20px ;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+.todolist{
+  display: flex;
+  flex-wrap: wrap;  /* elementos fluyendo hacia abajo*/
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Logo Container*/
+.logo-container{
+  width: 100%;
+ margin: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*Logo img*/
+.swaregraplogo{
+  width: 400px;
+  height: 200px;
+}
+
+/*Task List*/
+.task-list{
+  width: 500px;
+  min-height:500px;
+  background-color: rgb(212, 212, 218);
+  padding:25 px;
+  margin:15px;
+  border-radius: 20px;
+  box-shadow:0px 0px 5px 2px rgb(0, 0, 0);
+}
