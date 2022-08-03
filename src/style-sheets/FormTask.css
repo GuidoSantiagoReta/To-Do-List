@@ -39,3 +39,87 @@
 
 }
 
+/*responsive - smartphone*/
+@media (min-width: 320px) and (max-width:470px){
+
+/*Form structure*/
+
+.form-task{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*Field*/
+.input-task{
+    width: 250px ;
+    font-size: 15px;
+    background-color:#fff;
+    padding: 9px 30px 12px 15px ;
+    border: 1px solid rgb(3, 85, 0);
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/*button task*/
+
+.button-task{
+    padding: 12.5px;
+    font-size: 11px;
+    font-family: Roboto, sans-serif;
+    cursor:pointer;
+    outline: none;
+    background: rgb(3, 85, 0);
+    color:#fff;
+    text-transform: capitalize;
+    margin-left: 1vw;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+
+}
+
+/*responsive - smartphone*/
+@media (min-width: 320px) and (max-width:360px){
+
+  .form-task{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  /*Field*/
+  .input-task{
+      width: 200px ;
+      font-size: 15px;
+      background-color:#fff;
+      padding: 9px 30px 12px 15px ;
+      border: 1px solid rgb(3, 85, 0);
+      outline: none;
+      border-radius: 5px 5px 5px 5px;
+  }
+  
+  
+  /*button task*/
+  
+  .button-task{
+      padding: 12.5px;
+      font-size: 11px;
+      font-family: Roboto, sans-serif;
+      cursor:pointer;
+      outline: none;
+      background: rgb(3, 85, 0);
+      color:#fff;
+      text-transform: capitalize;
+      margin-left: 1vw;
+      border-radius: 5px 5px 5px 5px;
+  
+  }
+
+}
